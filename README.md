@@ -33,5 +33,5 @@ The goal of this assignment was to recreate a landing page layout (Mockup B: Por
 ![Mobile Screenshot](./assets/mobile_view.png)
 
 ## Links
-* **GitHub Repository:** [Insert Link Here]
-* **GitHub Pages Live Site:** [Insert Link Here]
+* **GitHub Repository:** https://github.com/Nermeenbolous/my-portfolio-landing/settings/pages
+* **GitHub Pages Live Site:**  https://nermeenbolous.github.io/my-portfolio-landing/
