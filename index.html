@@ -3,33 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Character Artist Portfolio</title>
+    <title>Nermeen Bolous | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar container">
-        <div class="logo">ArtistName</div>
-        <ul class="nav-links">
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+    <nav class="navbar">
+        <div class="container flex-nav">
+            <div class="brand">Nermeen Bolous</div>
+            <ul class="nav-links">
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="mailto:nermobolous24@gmail.com" class="btn-cta">Contact Me</a></li>
+            </ul>
+        </div>
     </nav>
 
+    <header class="hero container">
+        <div class="hero-content">
+            <h1>IT-Web Design & Graphic Artist</h1>
+            <p>Adobe Certified Professional specializing in Photoshop, Illustrator, and responsive web design.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn-primary">View My Work</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://via.placeholder.com/250" alt="Nermeen Bolous Portrait">
+        </div>
+    </header>
+
     <main class="container">
-        <section class="hero">
-            <h1>Character Designer & Digital Artist</h1>
-            <p>I create 2D sprites and turnaround sheets for games.</p>
+        <section id="projects">
+            <h2>Featured Design Projects</h2>
+            <div class="projects-grid">
+                <article class="card">
+                    <h3>2D Character Master</h3>
+                    <p>Professional turnaround sheet with front, side, and rear views.</p>
+                </article>
+                <article class="card"><h3>Vector Graphics</h3></article>
+                <article class="card"><h3>Responsive Layouts</h3></article>
+                <article class="card"><h3>Print Design</h3></article>
+                <article class="card"><h3>Digital Marketing</h3></article>
+                <article class="card"><h3>IT Administration</h3></article>
+            </div>
         </section>
 
-        <section class="projects-grid">
-            <article class="card">Character 1</article>
-            <article class="card">Character 2</article>
-            <article class="card">Character 3</article>
-            <article class="card">Character 4</article>
-            <article class="card">Character 5</article>
-            <article class="card">Character 6</article>
+        <section id="education">
+            <h2>Education & Certification</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Associate of Applied Science – IT- Web Design</h3>
+                    <p class="date">Expected Graduation: 05/2026</p>
+                    <p>Lake Land College, Mattoon, IL</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Adobe Certified Professional</h3>
+                    <p class="date">Certified Specialist</p>
+                    <p>Photoshop, Illustrator, InDesign, and Dreamweaver.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-flex">
+                <span class="skill-tag">Adobe Photoshop Expert</span>
+                <span class="skill-tag">Vector Graphics (Illustrator)</span>
+                <span class="skill-tag">Layout & Publishing (InDesign)</span>
+                <span class="skill-tag">Responsive Web Design</span>
+                <span class="skill-tag">Electronic Marketing</span>
+                <span class="skill-tag">Microsoft Office Specialist</span>
+            </div>
         </section>
     </main>
+
+    <footer class="container">
+        <p>&copy; 2026 Nermeen Bolous. Built with CSS Grid and Flexbox.</p>
+        <p>Email: nermobolous24@gmail.com | Phone: (217) 821-2892</p>
+    </footer>
 </body>
 </html>
