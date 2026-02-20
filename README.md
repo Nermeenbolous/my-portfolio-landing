@@ -8,21 +8,21 @@ The goal of this assignment was to recreate a landing page layout (Mockup B: Por
 
 ## Features
 * **Mobile-First Design:** Optimized for small screens first, then scaling up for desktop.
-* [cite_start]**CSS Grid:** Utilized for the "Featured Design Projects" section to create a dynamic 3-column layout[cite: 9, 11].
+* [cite_start]**CSS Grid:** Utilized for the "Featured Design Projects" section to create a dynamic 3-column layout.
 * **Flexbox:** Used for the navigation bar and hero section alignment.
 * **Accessibility:** Includes semantic HTML tags, logical heading orders, and alt text for all images.
 * **Branding:** Features a custom light blue theme with bold branding for "Nermeen Bolous."
 
 ## Technical Skills Showcased
-[cite_start]Based on my professional background[cite: 3, 7]:
-* [cite_start]**Graphic Design:** Adobe Photoshop & Illustrator[cite: 13, 19].
-* [cite_start]**Web Development:** Adobe Dreamweaver & HTML/CSS[cite: 21].
-* [cite_start]**Layout:** Adobe InDesign[cite: 20].
-* [cite_start]**Productivity:** Microsoft Office Specialist (PowerPoint)[cite: 16, 24].
-* [cite_start]**General IT:** ICDL Certification[cite: 15, 25].
+[cite_start]Based on my professional background:
+* [cite_start]**Graphic Design:** Adobe Photoshop & Illustrator.
+* [cite_start]**Web Development:** Adobe Dreamweaver & HTML/CSS.
+* [cite_start]**Layout:** Adobe InDesign.
+* [cite_start]**Productivity:** Microsoft Office Specialist (PowerPoint).
+* [cite_start]**General IT:** ICDL Certification.
 
 ## Education
-* [cite_start]**Lake Land College**: Associate of Applied Science – IT- Web Design Administration (Expected 05/2026)[cite: 8, 9, 11].
+* [cite_start]**Lake Land College**: Associate of Applied Science – IT- Web Design Administration (Expected 05/2026).
 
 ## Screenshots
 
