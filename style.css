@@ -1,39 +1,62 @@
-/* Container for width control */
+/* Container for width control - Requirement */
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0 20px;
 }
 
-/* Flexbox for Navbar */
-.navbar {
+/* Navbar: Flexbox Requirement */
+.flex-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 0;
 }
 
-.nav-links {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-}
-
-/* Mobile-First Grid (1 column) */
+/* Projects: Grid Requirement */
 .projects-grid {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; /* Mobile-First: 1 column */
     gap: 20px;
 }
 
-/* Desktop Breakpoint (Grid becomes 3 columns) */
+/* Desktop Breakpoint - Requirement */
 @media (min-width: 768px) {
     .projects-grid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr); /* 3 columns on desktop */
+    }
+    
+    .hero {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
     }
 }
 
-/* Button Hover State */
-.btn:hover {
-    background-color: #555;
+/* Timeline and Skills Styling */
+.timeline-item {
+    border-left: 3px solid #2ecc71;
+    padding-left: 15px;
+    margin-bottom: 25px;
+}
+
+.skills-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-tag {
+    background: #eee;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: 0.9rem;
+}
+
+/* Hover States for Buttons - Requirement */
+.btn-primary:hover, .btn-cta:hover {
+    background-color: #27ae60;
     cursor: pointer;
+    transform: scale(1.05);
 }
