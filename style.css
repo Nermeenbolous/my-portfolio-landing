@@ -42,7 +42,12 @@ body {
     padding: 1rem 0;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
-
+.nav-links a {
+    text-decoration: none;
+    color: #333; /* Dark grey color when not hovering */
+    font-weight: 600;
+    transition: color 0.3s ease; /* Makes the color change smooth */
+}
 .flex-nav {
     display: flex;
     justify-content: space-between;
