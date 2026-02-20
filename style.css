@@ -18,7 +18,12 @@
     --accent: #0984e3;
 }
 
-
+.brand {
+    font-weight: 800;          /* Makes the name bold */
+    color: #0984e3;           /* A professional blue to match the theme */
+    font-size: var(--step-4); /* Uses your defined type scale */
+    text-transform: uppercase; /* Optional: gives it a clean, professional look */
+}
 body {
     border-top: 12px solid var(--border-blue); /* Top Border Requirement */
     background-color: var(--bg-blue);
