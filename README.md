@@ -27,10 +27,10 @@ The goal of this assignment was to recreate a landing page layout (Mockup B: Por
 ## Screenshots
 
 ### Desktop View
-![Desktop Screenshot](./assets/desktop-preview.png)
+![Desktop Screenshot](./assets/desktop_preview.png)
 
 ### Mobile View
-![Mobile Screenshot](./assets/mobile-preview.png)
+![Mobile Screenshot](./assets/mobile_preview.png)
 
 ## Links
 * **GitHub Repository:** [Insert Link Here]
