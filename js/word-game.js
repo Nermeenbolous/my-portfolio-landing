@@ -1,10 +1,14 @@
+
+const words = ["APPLE", "GRAPE", "BEACH", "CHAIR", "PLANT", "LIGHT", "HOUSE"];
+
 const game = {
-    targetWord: "APPLE",
+    targetWord: words[Math.floor(Math.random() * words.length)],
     currentRow: 0,
     currentCol: 0,
     guesses: ["", "", "", "", "", ""],
     state: "playing"
 };
+
 
 const boardElement = document.getElementById("game-board");
 const messageElement = document.getElementById("message");
