@@ -9,7 +9,7 @@ const game = {
 const boardElement = document.getElementById("game-board");
 const messageElement = document.getElementById("message");
 
-// 1. Initialize Board
+
 function initBoard() {
     boardElement.innerHTML = "";
     for (let i = 0; i < 30; i++) {
@@ -20,7 +20,7 @@ function initBoard() {
     }
 }
 
-// 2. Logic: Process Input
+
 function processInput(key) {
     if (game.state !== "playing") return;
 
@@ -39,7 +39,7 @@ function processInput(key) {
     }
 }
 
-// 3. Logic: Check Win/Loss
+
 function checkGuess() {
     const guess = game.guesses[game.currentRow];
     
@@ -54,7 +54,6 @@ function checkGuess() {
     }
 }
 
-// 4. UI: Render Game
 function renderGame() {
     game.guesses.forEach((guess, rowIdx) => {
         for (let colIdx = 0; colIdx < 5; colIdx++) {
