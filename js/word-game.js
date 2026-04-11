@@ -67,7 +67,7 @@ function renderGame() {
             
             tile.innerText = letter;
 
-            // Only color rows that have been submitted
+            
             if (rowIdx < game.currentRow || game.state !== "playing") {
                 applyColors(tile, letter, colIdx);
             }
@@ -86,7 +86,7 @@ function applyColors(tile, letter, index) {
     }
 }
 
-// Listeners
+
 document.addEventListener("keydown", (e) => {
     processInput(e.key.toUpperCase());
     renderGame();
