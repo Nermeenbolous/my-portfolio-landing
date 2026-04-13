@@ -1,5 +1,6 @@
 #game-board {
     display: grid;
+     background-color: var(--bg-light-blue); 
     grid-template-rows: repeat(6, 1fr);
     grid-template-columns: repeat(5, 1fr);
     gap: 5px;
