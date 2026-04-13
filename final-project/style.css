@@ -101,7 +101,7 @@ button:hover {
 
 /* High-End Flashcard Style */
 .card {
-    background: var(--white);
+    background: var(--pink);
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 6px 18px rgba(0,0,0,0.06);
