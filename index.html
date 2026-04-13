@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nermeen Bolous | Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* This ensures all buttons align at the bottom of the cards */
+        .projects-grid .card {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 250px; /* Adjust height to match your design */
+        }
+    </style>
 </head>
 <body>
     <nav class="navbar">
@@ -38,36 +47,44 @@
             <div class="projects-grid">
                 
                 <article class="card" style="border: 2px solid #007bff; background-color: #f0f8ff;">
-                    <h3>Word Guess Game</h3>
-                    <p>Interactive JavaScript game. Guess the word!</p>
+                    <div>
+                        <h3>Word Guess Game</h3>
+                        <p>Interactive JavaScript game. Guess the word!</p>
+                    </div>
                     <a href="word-game.html" class="btn-primary" style="display: block; text-align: center; margin-top: 10px;">PLAY NOW</a>
                 </article>
 
                 <article class="card" style="border: 2px solid #007bff; background-color: #f0f8ff;">
-                    <h3>Flashcard Study Tool</h3>
-                    <p>Create, Study, and Master your subjects.</p>
+                    <div>
+                        <h3>Flashcard Study Tool</h3>
+                        <p>Create, Study, and Master your subjects.</p>
+                    </div>
                     <a href="final-project/index.html" class="btn-primary" style="display: block; text-align: center; margin-top: 10px;">STUDY NOW</a>
                 </article>
 
                 <article class="card" style="border: 2px solid #007bff; background-color: #f0f8ff;">
-                    <h3>2D Character Master</h3>
-                    <p>Professional turnaround sheet with front, side, and rear views.</p>
-                    <a href="#" class="btn-primary" style="display: block; text-align: center; margin-top: 10px;">VIEW ASSET</a>
+                    <div>
+                        <h3>2D Character Master</h3>
+                        <p>Professional turnaround sheet with front, side, and rear views.</p>
+                    </div>
                 </article>
 
                 <article class="card" style="border: 2px solid #007bff; background-color: #f0f8ff;">
-                    <h3>Vector Graphics</h3>
-                    <p>High-quality Illustrator assets and vector illustrations.</p>
-                    <a href="#" class="btn-primary" style="display: block; text-align: center; margin-top: 10px;">VIEW ASSET</a>
+                    <div>
+                        <h3>Vector Graphics</h3>
+                        <p>High-quality Illustrator assets and vector illustrations.</p>
+                    </div>
                 </article>
 
                 <article class="card" style="border: 2px solid #007bff; background-color: #f0f8ff;">
-                    <h3>Responsive Layouts</h3>
-                    <p>Web designs created using Dreamweaver and HTML/CSS.</p>
-                    <a href="#" class="btn-primary" style="display: block; text-align: center; margin-top: 10px;">VIEW WORK</a>
+                    <div>
+                        <h3>Responsive Layouts</h3>
+                        <p>Web designs created using Dreamweaver and HTML/CSS.</p>
+                    </div>
                 </article>
 
-            </div> </section>
+            </div> 
+        </section>
 
         <section id="education">
             <h2 class="section-title">Education</h2>
