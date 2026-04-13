@@ -11,11 +11,11 @@
     --brand-blue: #0984e3;
 }
 
-html { scroll-behavior: smooth; } /* Makes the Education button scroll smoothly */
+html { scroll-behavior: smooth; } 
 
 body {
-    border-top: 10px solid var(--border-blue); /* Light blue top border */
-    background-color: var(--bg-light-blue);    /* Light blue page background */
+    border-top: 10px solid var(--border-blue);
+    background-color: var(--bg-light-blue);    
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
     color: #333;
