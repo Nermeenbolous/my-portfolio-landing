@@ -8,15 +8,7 @@ body {
     align-items: center;
 }
 
-body {
-    background-color: #f0f8ff; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-}
+
 header {
     background-color: var(--bg-light-blue);
     color: white;
