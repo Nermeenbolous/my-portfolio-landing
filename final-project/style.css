@@ -1,6 +1,6 @@
 /* root variables for easy color management */
 :root {
-    --bg-light-blue: #f0f8ff; /* Matches your portfolio main background */
+    --bg-light-blue:var(--bg-light-blue); /* Matches your portfolio main background */
     --primary-blue: #007bff;   /* Matches your "View My Work" button */
     --dark-navy: #2c3e50;      /* Provides professional contrast for headers */
     --white: #ffffff;
