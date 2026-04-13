@@ -1,72 +1,141 @@
+/* root variables for easy color management */
+:root {
+    --bg-light-blue: #f0f8ff; /* Matches your portfolio main background */
+    --primary-blue: #007bff;   /* Matches your "View My Work" button */
+    --dark-navy: #2c3e50;      /* Provides professional contrast for headers */
+    --white: #ffffff;
+}
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: var(--bg-light-blue);
+    background-color: var(--bg-light-blue); /* */
     margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #333;
 }
+
+/* Fix: Change header to dark navy so white text is visible */
 header {
-    background-color: var(--bg-light-blue);
-    color: white;
+    background-color: var(--dark-navy); 
+    color: var(--white);
     width: 100%;
     text-align: center;
-    padding: 2rem 0;
+    padding: 3rem 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    opacity: 0.9;
+    margin-top: 10px;
 }
 
 .container {
     width: 90%;
-    max-width: 800px;
-    margin-top: 2rem;
+    max-width: 900px;
+    margin-top: -30px; /* Pulls the input section slightly into the header for a modern look */
+}
+
+/* Modern Input Card */
+.form-section {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    border: 1px solid #d1e9ff;
 }
 
 .input-group {
     display: flex;
-    gap: 10px;
-    margin-bottom: 1rem;
+    gap: 15px;
+    margin-top: 1rem;
 }
 
 input {
-    padding: 10px;
+    padding: 12px 15px;
     flex: 1;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
 }
 
+input:focus {
+    border-color: var(--primary-blue);
+    outline: none;
+}
+
+/* Styled Buttons */
 button {
-    padding: 10px 20px;
-    background-color: #3498db;
+    padding: 12px 25px;
+    background-color: var(--primary-blue);
     color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
+    font-weight: 600;
     cursor: pointer;
-    transition: 0.3s;
+    transition: all 0.3s ease;
 }
 
 button:hover {
-    background-color: #2980b9;
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
+/* Flashcard Grid */
 #card-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px;
-    margin-top: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 25px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 100%;
 }
 
+/* High-End Flashcard Style */
 .card {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    background: var(--white);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
     text-align: center;
-    min-height: 150px;
+    min-height: 200px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    border-bottom: 4px solid var(--primary-blue); /* Subtle accent line */
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h2 {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+    color: var(--dark-navy);
+}
+
+.card-btns {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.delete-btn { 
+    background-color: #e74c3c; 
+}
+
+.delete-btn:hover { 
+    background-color: #c0392b; 
 }
 
 .hidden { display: none; }
-.delete-btn { background-color: #e74c3c; margin-left: 5px; }
-.delete-btn:hover { background-color: #c0392b; }
