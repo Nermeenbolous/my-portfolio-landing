@@ -3,20 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Final Project - My Web App</title>
+    <title>Flashcard Master</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <header>
-        <h1>My Final Project</h1>
-        <nav>
-            <a href="../index.html">Back to Portfolio</a>
-        </nav>
+        <h1>Flashcard Study Tool</h1>
+        <p>Create, Study, and Master your subjects.</p>
     </header>
 
-    <main id="app-container">
-        <p>Project is starting soon!</p>
+    <main class="container">
+        <section class="form-section">
+            <h2>Add New Card</h2>
+            <div class="input-group">
+                <input type="text" id="question-input" placeholder="Enter Question">
+                <input type="text" id="answer-input" placeholder="Enter Answer">
+                <button id="add-btn">Add Card</button>
+            </div>
+            <p id="error-msg" class="hidden">Please fill out both fields!</p>
+        </section>
+
+        <section class="display-section">
+            <div id="card-container">
+                </div>
+        </section>
     </main>
 
     <script src="script.js"></script>
