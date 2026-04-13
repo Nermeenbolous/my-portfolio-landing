@@ -1,14 +1,14 @@
-/* root variables for easy color management */
+
 :root {
-    --bg-light-blue:var(--bg-light-blue); /* Matches your portfolio main background */
-    --primary-blue: #007bff;   /* Matches your "View My Work" button */
-    --dark-navy: #2c3e50;      /* Provides professional contrast for headers */
+    --bg-light-blue:var(--bg-light-blue); 
+    --primary-blue: #007bff;   
+    --dark-navy: #2c3e50;      
     --white: #ffffff;
 }
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: var(--bg-light-blue); /* */
+    background-color: var(--bg-light-blue); 
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -16,7 +16,6 @@ body {
     color: #333;
 }
 
-/* Fix: Change header to dark navy so white text is visible */
 header {
     background-color: var(--dark-navy); 
     color: var(--white);
@@ -39,10 +38,10 @@ header p {
 .container {
     width: 90%;
     max-width: 900px;
-    margin-top: -30px; /* Pulls the input section slightly into the header for a modern look */
+    margin-top: -30px; 
 }
 
-/* Modern Input Card */
+
 .form-section {
     background: var(--white);
     padding: 2rem;
@@ -71,7 +70,7 @@ input:focus {
     outline: none;
 }
 
-/* Styled Buttons */
+
 button {
     padding: 12px 25px;
     background-color: var(--primary-blue);
