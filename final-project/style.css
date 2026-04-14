@@ -110,6 +110,7 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     border-bottom: 4px solid var(--primary-blue); 
+    border-top: 4px solid var(--primary-blue); 
     transition: transform 0.3s ease;
 }
 
