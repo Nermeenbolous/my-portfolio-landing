@@ -109,7 +109,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-bottom: 4px solid var(--primary-blue); /* Subtle accent line */
+    border-bottom: 4px solid var(--primary-blue); 
     transition: transform 0.3s ease;
 }
 
