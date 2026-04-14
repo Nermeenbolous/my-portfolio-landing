@@ -32,7 +32,7 @@ function addCard() {
     flashcards.push(newCard);
     saveAndRender();
     
-    // Clear inputs
+ 
     questionInput.value = "";
     answerInput.value = "";
 }
