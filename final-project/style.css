@@ -88,7 +88,7 @@ button:hover {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-/* Flashcard Grid */
+
 #card-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -98,9 +98,9 @@ button:hover {
     width: 100%;
 }
 
-/* High-End Flashcard Style */
+
 .card {
-    background: var(--pink);
+    background: yellow;
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 6px 18px rgba(0,0,0,0.06);
