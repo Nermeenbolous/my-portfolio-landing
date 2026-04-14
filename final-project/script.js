@@ -1,20 +1,20 @@
 
-// 1. Data Structure (Requirement: Use arrays/objects)
+
 let flashcards = JSON.parse(localStorage.getItem('myCards')) || [];
 
-// 2. Select Elements
+
 const questionInput = document.getElementById('question-input');
 const answerInput = document.getElementById('answer-input');
 const addBtn = document.getElementById('add-btn');
 const cardContainer = document.getElementById('card-container');
 const errorMsg = document.getElementById('error-msg');
 
-// 3. Add Card Function (Requirement: User input handling & Validation)
+
 function addCard() {
     const question = questionInput.value.trim();
     const answer = answerInput.value.trim();
 
-    // Client-side Validation
+    
     if (question === "" || answer === "") {
         errorMsg.classList.remove('hidden');
         return;
@@ -37,7 +37,7 @@ function addCard() {
     answerInput.value = "";
 }
 
-// 4. Save and Render (Requirement: DOM Manipulation & Advanced Concept: localStorage)
+
 function saveAndRender() {
     localStorage.setItem('myCards', JSON.stringify(flashcards));
     renderCards();
@@ -50,7 +50,7 @@ function renderCards() {
         const cardElement = document.createElement('div');
         cardElement.classList.add('card');
         
-        // Dynamic Content
+        
         cardElement.innerHTML = `
             <div class="card-content">
                 <p class="text-label">${card.isFlipped ? "Answer:" : "Question:"}</p>
@@ -65,7 +65,7 @@ function renderCards() {
     });
 }
 
-// 5. Card Logic (Requirement: Multiple interactive features)
+
 window.flipCard = function(index) {
     flashcards[index].isFlipped = !flashcards[index].isFlipped;
     renderCards();
@@ -76,8 +76,8 @@ window.deleteCard = function(index) {
     saveAndRender();
 };
 
-// Event Listeners
+
 addBtn.addEventListener('click', addCard);
 
-// Initial Load
+
 renderCards();
